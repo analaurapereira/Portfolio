@@ -58,7 +58,7 @@ export const NavLink = styled(Link)`
         height: 100%;
         border-radius: 30px;
         transform-origin: left center;
-        background-color: #2196f3;
+        background-color: #107acc;
         transition: transform 0.8s cubic-bezier(0.23, 1, 0.32, 1);
         transform: scaleX(0); 
         z-index: -1; 
@@ -70,7 +70,6 @@ export const NavLink = styled(Link)`
     }
 
     &:hover {
-        color: #212121;
         border-radius: 30px;
         transform: scale(1.1);
     }

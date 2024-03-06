@@ -11,5 +11,5 @@ export const Button = styled.div`
     
     z-index: 1;
     cursor: pointer;
-    color: ${(props) => props.theme.text};
+    color: #999999ff;
 `;

@@ -14,12 +14,12 @@ export const StyledTitle = styled.h1`
 `;
 
 export const StyledTitle2 = styled.h1`
-    margin-top: 5%;
+    margin-top: 7%;
     text-align: center;
     display: none;
     font-size: 30px;
     @media (max-width: 1110px) {
-        font-size: 26px;
+        font-size: 24px;
     }
     @media (max-width: 900px) {
         display: block;

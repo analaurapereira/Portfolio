@@ -78,6 +78,9 @@ export const Label = styled.label`
     @media (max-width: 1110px) {
         font-size: 13px;
     }
+    @media (max-width: 400px) {
+        font-size: 9px;
+    }
 
   &::before {
     content: " ";
@@ -105,6 +108,9 @@ export const Selection = styled.span`
     @media (max-width: 1110px) {
         font-size: 13px;
     }
+    @media (max-width: 400px) {
+        font-size: 9px;
+    }
 `;
 
 
@@ -116,7 +122,7 @@ export const CheckedLabel = styled(Label)`
   border-radius: 10px;
   background-color: #107acc;
   width: 80%;
-  color: #000000; 
+  color: white;
   overflow: hidden;
   border: 1px solid rgba(53, 52, 52, 0);
   text-align: center;
@@ -126,6 +132,9 @@ export const CheckedLabel = styled(Label)`
     @media (max-width: 1110px) {
         font-size: 13px;
     }
+    @media (max-width: 400px) {
+        font-size: 9px;
+    }
 `;
 
 export const CheckedSelection = styled(Selection)`
@@ -133,6 +142,9 @@ export const CheckedSelection = styled(Selection)`
   font-size: 21px;
     @media (max-width: 1110px) {
         font-size: 13px;
+    }
+    @media (max-width: 400px) {
+        font-size: 9px;
     }
 `;
 
