@@ -3,20 +3,22 @@ import {Text} from "../styles/home"
 export const HomeText = () =>{
     return(
        <Text>
-        Estudante de Ciências da Computação no Centro Universitário Municipal de Franca (Uni-FACEF), estou dedicada a desenvolver uma sólida base de conhecimentos em diversas áreas da tecnologia.
-Possuo habilidades fundamentais em linguagens de programação, como Python, Java, React Typescript e Javascript, complementadas por uma experiência prática sólida em HTML e CSS, obtida por meio de cursos, projetos acadêmicos e iniciativas pessoais.<br></br><br></br>
+       Atualmente, cursando segundo ano de Ciência da Computação, busco um novo estágio na área que escolhi como profissão.<br></br><br></br>
+Estou dando os primeiros passos na minha trajetória profissional. Cada passo que dou é impulsionado pela busca constante de aprendizado,
+ refletindo-se em uma variedade de cursos de aprimoramento pessoal que abrangem áreas cruciais como inglês, português e matemática.<br></br><br></br>
+Em 2019, tive a privilegiada oportunidade de realizar minha primeira viagem internacional, explorando o Reino Unido, França e Bélgica. 
+Além de expandir meu horizonte cultural, essa experiência foi um teste prático das habilidades linguísticas adquiridas nos cursos, 
+especialmente no inglês.<br></br><br></br>
+Minhas habilidades fundamentais em linguagens de programação, incluindo Python, Java, React Typescript e Javascript, são complementadas por 
+uma experiência prática sólida em HTML e CSS. Adquiri essas competências por meio de cursos especializados, projetos acadêmicos e iniciativas 
+pessoais.<br></br><br></br>
+Minha formação inclui uma passagem significativa pelo Kumon, onde aprimorei habilidades em matemática e lógica, concluindo o curso em menos de 2 anos. 
+Esse desempenho notável resultou em um convite para estagiar na instituição como orientadora de matemática.<br></br><br></br>
+Participo ativamente do programa Google Expert, desempenhando o papel de especialista de produtos na suíte Google Docs. Esta iniciativa voluntária não
+ apenas me oferece a chance de orientar membros da comunidade, mas também contribui significativamente para meu constante aprimoramento em habilidades tecnológicas.<br></br><br></br>
+Estou animado com os desafios que a carreira profissional me reserva e ansioso para continuar crescendo, aprendendo e contribuindo de maneira significativa. 
+Minha trajetória até aqui é apenas o começo, e estou comprometido em alcançar excelência em todas as áreas que eu explorar.
 
-
-Minha formação inclui uma trajetória no Kumon, onde aprimorei minhas habilidades em matemática e lógica, concluindo o curso em menos de 2 anos, desempenho que resultou em um convite para estagiar na instituição como orientadora de matemática.<br></br><br></br>
-
-
-Em 2019, tive a oportunidade de realizar minha primeira viagem internacional, explorando o Reino Unido, França e Bélgica. Esta experiência não apenas ampliou meu horizonte cultural, mas também me permitiu testar minhas habilidades linguísticas, especialmente no inglês.<br></br><br></br>
-
-
-Como participante ativo do programa Google Expert, atuo como especialista de produtos na suíte Google Docs. Esta iniciativa voluntária me proporciona uma plataforma para orientar membros da comunidade, contribuindo para meu constante aprimoramento nas habilidades tecnológicas.
-
-
-Adicionalmente, estou empenhado em aprimorar meus conhecimentos em diversas áreas relacionadas à tecnologia, participando de cursos extras na plataforma Google Cloud.
 
        </Text>
     )
