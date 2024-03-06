@@ -15,22 +15,34 @@ import { Text1, Text2, Text3, Text4, Text5, Text6, Text7, Text8, Text9 } from '.
 import 'slick-carousel/slick/slick.css';
 import 'slick-carousel/slick/slick-theme.css';
 
+export const RadioInput: React.FC = () => {
+  const [selectedOption, setSelectedOption] = useState('value-1');
 
-  export const RadioInput: React.FC = () => {
-    const [selectedOption, setSelectedOption] = useState('value-1');
+  const handleOptionChange = (e: React.ChangeEvent<HTMLInputElement>) => {
+    setSelectedOption(e.target.value);
+  };
 
-    const handleOptionChange = (e: React.ChangeEvent<HTMLInputElement>) => {
-      setSelectedOption(e.target.value);
-    };
+  const settings = {
+    dots: false,
+    infinite: true,
+    speed: 500,
+    slidesToScroll: 1,
+    responsive: [
+      {
+        breakpoint: 600,
+        settings: {
+          slidesToShow: 2,
+        },
+      },
+      {
+        breakpoint: 9999, // A large number to cover all larger screens
+        settings: {
+          slidesToShow: 3,
+        },
+      },
+    ],
+  };
 
-    
-    const settings = {
-      dots: false,
-      infinite: true,
-      speed: 500,
-      slidesToShow: 3 ,
-      slidesToScroll: 1,
-    };
     
     
 
