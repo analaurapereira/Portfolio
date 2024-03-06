@@ -124,7 +124,7 @@ export const Sidebar: React.FC<SidebarProps> = (props) => {
                 onToggleDarkMode={props.onToggleDarkMode}
                 theme={selectedTheme}>
                     <SidebarContent>
-                        <StyledLink to='/home'>Home</StyledLink>
+                        <StyledLink to=' '>Home</StyledLink>
                         <StyledLink to='/cursos'>Cursos</StyledLink>
                         <StyledLink to='/experiencias'>Experiências</StyledLink>
                         <Style><ThemeToggle darkMode={darkMode} onToggleDarkMode={toggleTheme} /></Style>

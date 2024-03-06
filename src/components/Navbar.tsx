@@ -41,7 +41,7 @@ export function Navbar(props: NavbarProps) {
       <NavbarWrapper isVisible={isVisible} darkMode={darkMode} onToggleDarkMode={toggleTheme} theme={selectedTheme}>
         <NavList>
           <NavItem>
-            <NavLink to="/home">Home</NavLink>
+            <NavLink to=" ">Home</NavLink>
           </NavItem>
           <NavItem>
             <NavLink to="/cursos">Cursos</NavLink>
