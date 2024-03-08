@@ -21,6 +21,7 @@ export const Radio = styled.span`
     border-radius: 50%; 
     width: 30px; 
     height: 30px; 
+    margin-right: 4%;
   }
 
   .slick-prev:hover, .slick-next:hover {
