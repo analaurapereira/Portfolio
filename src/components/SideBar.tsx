@@ -63,24 +63,35 @@ const StyledLink = styled(Link)`
 `
 
 const Style = styled.button`
-    margin-top:70%;     
+    margin-left:14%;     
     background-color: rgb(0, 19, 35);
     border: rgb(0, 19, 35);
     color: rgb(0, 19, 35);
-    margin-left:90px;
+    justify-content: flex-end;
+    margin-top: 210%;
+    @media (min-height: 400px) {
+        margin-top: 90%;
+    }
 `
 
 export const Sidebar: React.FC<SidebarProps> = (props) => {
     const [isOpen, setIsOpen] = useState(false);
     const [isVisible, setIsVisible] = useState(false);
     const [darkMode, setDarkMode] = useState(() => {
-    const storedDarkMode = localStorage.getItem('darkMode');
+        const storedDarkMode = localStorage.getItem('darkMode');
         return storedDarkMode ? JSON.parse(storedDarkMode) : props.darkMode;
     });
+    const [icon, setIcon] = useState('☰'); // Initial icon
      const location = useLocation();
 
+    const toggleSidebar = () => {
+        setIsOpen(!isOpen);
+        setIcon(isOpen ? '☰' : '✕'); // Change icon when opening/closing
+    };
+    
     useEffect(() => {
-        // Fecha a barra lateral quando a rota muda
+        // Update the icon when the location changes (page change)
+        setIcon('☰');
         setIsOpen(false);
     }, [location.pathname]);
 
@@ -101,10 +112,6 @@ export const Sidebar: React.FC<SidebarProps> = (props) => {
         }
     };
 
-    const toggleSidebar = () => {
-        setIsOpen(!isOpen);
-    };
-
     useEffect(() => {
         handleResize();
         window.addEventListener('resize', handleResize);
@@ -114,23 +121,24 @@ export const Sidebar: React.FC<SidebarProps> = (props) => {
         };
     }, []);
 
-    return (
-        <>
-            {isVisible && <OpenButton onClick={toggleSidebar}>&#9776;</OpenButton>}
-            {isVisible && (
-                <StyledSidebarWrapper
-                isOpen={isOpen}
-                darkMode={props.darkMode}
-                onToggleDarkMode={props.onToggleDarkMode}
-                theme={selectedTheme}>
-                    <SidebarContent>
-                        <StyledLink to=' '>Home</StyledLink>
-                        <StyledLink to='/cursos'>Cursos</StyledLink>
-                        <StyledLink to='/experiencias'>Experiências</StyledLink>
-                        <Style><ThemeToggle darkMode={darkMode} onToggleDarkMode={toggleTheme} /></Style>
-                     </SidebarContent>    
-                </StyledSidebarWrapper>
-            )}
-        </>
-    );
+        return (
+    <>
+      {isVisible && <OpenButton onClick={toggleSidebar}>{icon}</OpenButton>}
+      {isVisible && (
+        <StyledSidebarWrapper
+          isOpen={isOpen}
+          darkMode={props.darkMode}
+          onToggleDarkMode={props.onToggleDarkMode}
+          theme={selectedTheme}
+        >
+          <SidebarContent>
+            <StyledLink to=" ">Home</StyledLink>
+            <StyledLink to="/cursos">Cursos</StyledLink>
+            <StyledLink to="/experiencias">Experiências</StyledLink>
+            <Style><ThemeToggle darkMode={darkMode} onToggleDarkMode={toggleTheme} /></Style>
+          </SidebarContent>
+        </StyledSidebarWrapper>
+      )}
+    </>
+  );
 };

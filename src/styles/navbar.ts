@@ -46,7 +46,7 @@ export const NavLink = styled(Link)`
     position: relative;
     overflow: hidden;
     background-color: transparent;
-    border-radius: 30px;
+    border-radius: 15px;
     z-index: 1; 
 
     &:before {
@@ -56,7 +56,7 @@ export const NavLink = styled(Link)`
         left: 0;
         width: 100%;
         height: 100%;
-        border-radius: 30px;
+        border-radius: 15px;
         transform-origin: left center;
         background-color: #107acc;
         transition: transform 0.8s cubic-bezier(0.23, 1, 0.32, 1);
@@ -66,11 +66,11 @@ export const NavLink = styled(Link)`
 
     &:hover::before {
         transform: scaleX(1); 
-        border-radius: 30px; 
+        border-radius: 15px; 
     }
 
     &:hover {
-        border-radius: 30px;
+        border-radius: 15px;
         transform: scale(1.1);
     }
 `;

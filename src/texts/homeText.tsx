@@ -16,7 +16,7 @@ Minha formação inclui uma passagem significativa pelo Kumon, onde aprimorei ha
 Esse desempenho notável resultou em um convite para estagiar na instituição como orientadora de matemática.<br></br><br></br>
 Participo ativamente do programa Google Expert, desempenhando o papel de especialista de produtos na suíte Google Docs. Esta iniciativa voluntária não
  apenas me oferece a chance de orientar membros da comunidade, mas também contribui significativamente para meu constante aprimoramento em habilidades tecnológicas.<br></br><br></br>
-Estou animado com os desafios que a carreira profissional me reserva e ansioso para continuar crescendo, aprendendo e contribuindo de maneira significativa. 
+Estou animada com os desafios que a carreira profissional me reserva e ansiosa para continuar crescendo, aprendendo e contribuindo de maneira significativa. 
 Minha trajetória até aqui é apenas o começo, e estou comprometido em alcançar excelência em todas as áreas que eu explorar.
 
 

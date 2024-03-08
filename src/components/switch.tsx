@@ -19,7 +19,8 @@ export const ThemeToggle: React.FC<ThemeToggleProps> = ({ darkMode, onToggleDark
         cursor: 'pointer',
         border: 'none',
         left: '95.2%',
-        backgroundColor: 'rgb(0, 19, 35)'
+        backgroundColor: 'rgb(0, 19, 35)',
+        padding: '5px'
       }}
       onClick={onToggleDarkMode}
     >
