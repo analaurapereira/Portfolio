@@ -50,13 +50,35 @@ export const Text4 = () => (
 export const Text5 = () => {
   return (
     <Paragraph>
-      <ParagraphTytle>Kumon</ParagraphTytle>
+      <ParagraphTytle>Kumon: Excelência em Matemática e Lógica</ParagraphTytle>
       <Text>
         <br></br>
-        Iniciado em agosto de 2021 e concluído em agosto de 2023, o curso abrangeu todas as áreas da matemática,
-        desde operações básicas até a aplicação de lógica e cálculos avançados, incluindo o uso de derivadas e integrais.
-        Ao realizar o curso em um período relativamente curto e demonstrar grande conhecimento na área,
-        fui convidada para realizar um estágio como orientadora de matemática.
+        <strong>Período:</strong> Agosto de 2021 a agosto de 2023
+        <br></br><br></br>
+        <strong>Desenvolvimento:</strong>
+        <br></br>
+        <ul>
+          <li>Abordagem completa da matemática, desde operações básicas até lógica e cálculos avançados.</li>
+          <li>Ênfase na aplicação prática de conceitos matemáticos.</li>
+          <li>Desenvolvimento de habilidades em resolução de problemas, raciocínio lógico e pensamento crítico.</li>
+        </ul>
+        <br></br>
+        <strong>Conquistas:</strong>
+        <br></br>
+        <ul>
+          <li>Conclusão do curso em um período inferior à média, demonstrando dedicação e aptidão para a matemática.</li>
+          <li>Desempenho excepcional nas avaliações, evidenciando sólido conhecimento e domínio da matéria.</li>
+          <li>Convite para estagiar como orientadora de matemática, reconhecendo minhas habilidades e potencial para auxiliar outros 
+          alunos.</li>
+        </ul>  
+        <br></br>
+        <strong>Habilidades Desenvolvidas:</strong>
+        <ul>
+          <li>Domínio de conceitos matemáticos em diferentes áreas.</li>
+          <li>Capacidade de aplicar a matemática em situações reais.</li>
+          <li>Habilidades de comunicação e ensino eficazes.</li>
+          <li>Paciência, organização, responsabilidade e trabalho em equipe.</li>
+        </ul>
       </Text>
     </Paragraph>
   );
@@ -95,9 +117,34 @@ export const Text8 = () => (
         <ParagraphTytle>Brasil Provider</ParagraphTytle>
         <Text>
           <br></br>
-        Realizado em 2024, este curso possui o objetivo de desenvolver habilidades essenciais em relação à elaboração de planilhas na plataforma Google Sheets.
-        Durante o curso, foi apresentado noções básicas como a construção de planilhas, a lógica por trás delas e o uso de fôrmulas para diversas finalidades. Por fim, 
-      continuo me aprimorando atrávez do programa Google Expert.
+          Em 2024, realizei o curso "Google Sheets Essencial" da Brasil Provider, com o objetivo de desenvolver minhas habilidades na
+         plataforma Google Sheets. O curso me proporcionou:
+         <br></br><br></br>
+        <strong>1. Domínio das ferramentas básicas:</strong>
+        <br></br><br></br>
+        <ul>
+          <li><strong>Criação e formatação de planilhas:</strong> Aprendi a construir planilhas eficientes e visualmente atraentes, utilizando ferramentas
+          de formatação e organização.</li>
+          <li><strong>Fórmulas e funções:</strong> Aperfeiçoei meu conhecimento em fórmulas e funções para realizar cálculos complexos, 
+          automatizar tarefas e extrair insights dos dados.</li>
+          <li><strong>Filtros e tabelas dinâmicas:</strong> Dominei o uso de filtros e tabelas dinâmicas para organizar e analisar grandes conjuntos de 
+          dados de forma eficiente.</li>
+        </ul>
+        <br></br>
+        <strong>2. Aprimoramento de habilidades avançadas:</strong>
+        <br></br><br></br>
+        <ul>
+          <li><strong>Validação de dados:</strong> Aprendi a utilizar ferramentas de validação de dados para garantir a qualidade e a confiabilidade 
+          das informações inseridas nas planilhas.</li>
+          <li><strong>Javascript:</strong> Explorei a criação de funções personalizadas para automatizar tarefas repetitivas e otimizar o fluxo de 
+          trabalho.</li>
+        </ul> 
+        <br></br>
+        <strong>3. Aprendizagem contínua:</strong>
+        <br></br><br></br>
+        Após o curso, continuo me aprimorando na plataforma Google Sheets através do programa Google Expert, onde participo de 
+        fóruns, debates e treinamentos online para me manter atualizado com as últimas novidades e ferramentas.
+
 
         </Text>
   </Paragraph>  
@@ -108,9 +155,26 @@ export const Text9 = () => (
         <ParagraphTytle>Viscari Inc.</ParagraphTytle>
         <Text>
           <br></br>
-          O curso realizado em 2024 teve como objetivo introduzir a ferramenta Power BI e explorar suas possibilidades, assim como o uso de 
-          fórmulas para apresentar dados com maior precisão. 
-          Através dele, pude desenvolver diversos dashboards que abrangem áreas como estoque, finanças, entre outros.
+          Em 2024, realizei o curso "Power BI Expert na Prática" da Viscari Inc., com foco em:
+          <br></br>
+          <ul>
+            <li><strong>Fundamentos do Power BI:</strong> Conexão com dados, modelagem, relatórios e dashboards.</li>
+            <li><strong>Recursos avançados:</strong> Fórmulas DAX, visualizações personalizadas e storytelling com dados.</li>
+            <li><strong>Desenvolvimento de dashboards:</strong> Estoque, finanças, vendas, entre outros.</li>
+            <li><strong>Aprimoramento profissional:</strong> Análise de dados, comunicação e resolução de problemas.</li>
+          </ul>
+          <br></br>
+          <strong>Conclusão:</strong>
+          <br></br>
+          Obtive um certificado e me sinto preparada para usar o Power BI no mercado de trabalho.
+          <br></br><br></br>
+          <strong>Habilidades:</strong>
+          <br></br>
+          <ul>
+            <li>Conexão com dados, modelagem, relatórios e dashboards.</li>
+            <li>Fórmulas DAX, visualizações personalizadas e storytelling com dados.</li>
+            <li>Análise de dados, comunicação e resolução de problemas.</li>
+          </ul>
         </Text>
   </Paragraph>
 );
