@@ -1,4 +1,4 @@
-import {  FaLinkedin} from 'react-icons/fa';
+import {  FaLinkedin, FaGithub} from 'react-icons/fa';
 import { TbBrandGmail } from "react-icons/tb";
 
 import {
@@ -21,6 +21,11 @@ export function Footer() {
           <SocialListItem >
             <a href="https://www.linkedin.com/in/ana-laura-silva-pereira-02b91a199//" target="_blank" rel="noopener noreferrer">
               <FaLinkedin color='white'/>
+            </a>
+           </SocialListItem>
+           <SocialListItem >
+            <a href="https://github.com/analaurapereira" target="_blank" rel="noopener noreferrer">
+              <FaGithub color='white'/>
             </a>
            </SocialListItem>
       </SocialContainer>
