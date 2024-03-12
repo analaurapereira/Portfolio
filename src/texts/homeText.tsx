@@ -3,8 +3,9 @@ import {Text} from "../styles/home"
 export const HomeText = () =>{
     return(
        <Text>
-        Atualmente, cursando terceiro período de Ciência da Computação e após minha primeira experiência 
-        profissional, estagiando por um ano, busco agora um novo estágio na área que escolhi como profissão.
+        Atualmente, cursando terceiro período de Ciência da Computação. Após minha primeira experiência 
+        profissional, estagiando por um ano, busco atualmente um novo estágio na área que escolhi como 
+        profissão.
         <br></br><br></br>
         Estou dando os primeiros passos na minha trajetória profissional. Cada passo que dou é impulsionado pela 
         busca constante de aprendizado, refletindo-se em uma variedade de cursos de aprimoramento pessoal que 
@@ -14,7 +15,7 @@ export const HomeText = () =>{
         Reino Unido, França e Bélgica. Além de expandir meu horizonte cultural, essa experiência foi um teste 
         prático das habilidades linguísticas adquiridas nos cursos, especialmente no inglês.
         <br></br><br></br>
-        Minhas habilidades fundamentais em linguagens de programação, incluindo Python, Java Script, React e 
+        Minhas habilidades fundamentais em linguagens de programação, incluindo Python, Java, JavaScript e React
         Typescript, são complementadas por uma experiência prática em HTML e CSS. Adquiri essas competências 
         por meio de cursos especializados, projetos acadêmicos e iniciativas pessoais.
         <br></br><br></br>
