@@ -11,7 +11,7 @@ import {
   CheckedLabel,
   RadioInputContainer,
 } from '../styles/radioButton';
-import { Text1, Text2, Text3, Text4, Text5, Text6, Text7, Text8, Text9 } from '../texts/radioButtonText';
+import { Text1, Text2, Text3, Text4, Text5, Text6, Text7, Text8, Text9, Text10 } from '../texts/radioButtonText';
 import 'slick-carousel/slick/slick.css';
 import 'slick-carousel/slick/slick-theme.css';
 
@@ -93,6 +93,7 @@ export const RadioInput: React.FC = () => {
           <RadioInputContainer>{renderLabel('value-7', 'Modelagem de Dados')}</RadioInputContainer>
           <RadioInputContainer>{renderLabel('value-8', 'Google Sheets')}</RadioInputContainer>
           <RadioInputContainer>{renderLabel('value-9', 'Power BI')}</RadioInputContainer>
+          <RadioInputContainer>{renderLabel('value-10', 'Python para análise de dados')}</RadioInputContainer>
         </Slider>
 
         <div className="radio-carousel">
@@ -106,6 +107,7 @@ export const RadioInput: React.FC = () => {
             {selectedOption === 'value-7' && <div><Text7 /></div>}
             {selectedOption === 'value-8' && <div><Text8 /></div>}
             {selectedOption === 'value-9' && <div><Text9 /></div>}
+            {selectedOption === 'value-10' && <div><Text10 /></div>}
           </div>
         </div>
       </Radio>

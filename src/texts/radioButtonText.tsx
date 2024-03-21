@@ -178,3 +178,35 @@ export const Text9 = () => (
         </Text>
   </Paragraph>
 );
+
+export const Text10 = () => {
+  return (
+    <Paragraph>
+      <ParagraphTytle>Data Science Academy</ParagraphTytle>
+      <Text>
+        <br></br>
+          Em 2024, realizei o curso "Fundamentos de Linguagem Python Para Análise de Dados e Data Science" 
+          da Data Science Academy. Durante os três módulos presentes no curso, obti conhecimento em :
+          <br></br>
+          <ul>
+            <li>Introdução a lógica de programação.</li>
+            <li>Variáveis, tipos, estrutura de dados, loops, condicionais, métodos e funções em python.</li>
+            <li>Tratamento de arquivos, módulos, pacotes e funções Built-in.</li>
+            <li>Programação Orientada a Objeto.</li>
+            <li>Matemática e manipulação de matrizes com NumPy.</li>
+            <li>Manipulação de dados com Pandas.</li>
+            <li>Visualização de dados com Matplotlib e Seaborn.</li>
+            <li>Análise de dados com python e liguagem SQL.</li>
+            <li>Análise estatística com Statsmodels.</li>
+            <li>Machine Learning com Scikit-Learn.</li>
+            <li>Análise de séries temporais em python.</li>
+            <li>Introdução a Deep Learning com TensorFlow.</li>
+          </ul>
+          <br></br>
+          <strong>Conclusão:</strong>
+          <br></br>
+          Obtive três certificados e aprofundei meus conhecimentos na linguagem python e em análise de dados.
+      </Text>
+    </Paragraph>
+  );
+};
