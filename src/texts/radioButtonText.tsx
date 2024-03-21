@@ -187,7 +187,7 @@ export const Text10 = () => {
         <br></br>
           Em 2024, realizei o curso "Fundamentos de Linguagem Python Para Análise de Dados e Data Science" 
           da Data Science Academy. Durante os três módulos presentes no curso, obti conhecimento em :
-          <br></br>
+          <br></br><br></br>
           <ul>
             <li>Introdução a lógica de programação.</li>
             <li>Variáveis, tipos, estrutura de dados, loops, condicionais, métodos e funções em python.</li>
