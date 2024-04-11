@@ -24,7 +24,7 @@ export const HomeText = () =>{
         estagiar na instituição como orientadora de matemática.
         <br></br><br></br>
         Participo ativamente do programa Google Expert, desempenhando o papel de especialista de produtos na 
-        suíte Google Docs, nível Gold. Esta iniciativa voluntária não apenas me oferece a chance de orientar 
+        suíte Google Docs, nível Platina. Esta iniciativa voluntária não apenas me oferece a chance de orientar 
         membros da comunidade, mas também contribui significativamente para meu constante aprimoramento em
         habilidades tecnológicas.
         <br></br><br></br>
