@@ -70,3 +70,6 @@ Se quiseres executar este projeto na tua máquina local, segue os passos abaixo:
 * LinkedIn: [Ana Laura S. Pereira](https://www.linkedin.com/in/ana-laura-silva-pereira/)
 * GitHub: [@analaurapereira](https://github.com/analaurapereira)
 
+---
+
+## Última atualização: Março de 2024
